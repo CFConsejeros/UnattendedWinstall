@@ -397,7 +397,6 @@ foreach( $file in $Document.unattend.Extensions.File ) {
   Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.Microsoft3DViewer';
   'Microsoft.BingSearch';
-  'Microsoft.WindowsCalculator';
   'Microsoft.WindowsCamera';
   'Clipchamp.Clipchamp';
   'Microsoft.WindowsAlarms';
@@ -414,16 +413,11 @@ foreach( $file in $Document.unattend.Extensions.File ) {
   'Microsoft.MicrosoftOfficeHub';
   'Microsoft.Office.OneNote';
   'Microsoft.OutlookForWindows';
-  'Microsoft.Paint';
-  'Microsoft.MSPaint';
   'Microsoft.People';
-  'Microsoft.Windows.Photos';
   'Microsoft.PowerAutomateDesktop';
   'MicrosoftCorporationII.QuickAssist';
   'Microsoft.SkypeApp';
-  'Microsoft.ScreenSketch';
   'Microsoft.MicrosoftSolitaireCollection';
-  'Microsoft.MicrosoftStickyNotes';
   'MSTeams';
   'Microsoft.Getstarted';
   'Microsoft.Todos';
